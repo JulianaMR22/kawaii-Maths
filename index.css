@@ -1,0 +1,106 @@
+body {
+  background-color: #ffe0f4;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Hanken Grotesk", sans-serif;
+  color: #ffffff;
+  font-size: 27px;
+  text-transform: capitalize;
+}
+
+.container {
+  background-color: #ffc7eb;
+  width: 27%;
+  height: 80vh;
+  border-radius: 10px;
+  box-shadow: 0px 15px 10px 5px rgba(0, 0, 0, 0.15);
+}
+
+.main {
+  background-color: #ffa7e0;
+  width: calc(100% - 30px);
+  margin-left: 15px;
+  height: 85px;
+  border: 2px solid#fff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.value {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  font-size: 38px;
+  margin-right: 15px;
+}
+
+.container_items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  font-size: 28px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.item {
+  width: 22%;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  margin-top: 18px;
+  background-color: #fda7df;
+  border-radius: 5px;
+  align-items: center;
+}
+.item_2 {
+  width: 22%;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 18px;
+  background-color: #d980fa;
+  border-radius: 5px;
+}
+.item_3 {
+  width: 22%;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 18px;
+  background-color: #e8a9ff;
+  border-radius: 5px;
+}
+
+.item:hover{
+  background-color:#f98faf;
+}
+.item_2:hover{
+  background-color: #bd4de6;
+}
+.item_3:hover{
+  background-color: #c86be9;
+}
