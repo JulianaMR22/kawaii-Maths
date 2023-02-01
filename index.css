@@ -95,12 +95,23 @@ body {
   border-radius: 5px;
 }
 
-.item:hover{
-  background-color:#f98faf;
+.item:hover {
+  background-color: #f98faf;
 }
-.item_2:hover{
+.item_2:hover {
   background-color: #bd4de6;
 }
-.item_3:hover{
+.item_3:hover {
   background-color: #c86be9;
+}
+
+@media screen and (max-width: 640px) {
+  .container {
+    width: 93%;
+    height: 72vh;
+  }
+
+  .main_container {
+    margin-top: 85px;
+  }
 }
